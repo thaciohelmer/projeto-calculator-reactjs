@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "RobotoMono", sans-serif;
+  font-weight: 400;
+  color: #fcfff5;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #193441;
+  background-image: linear-gradient(160deg, #3e606f 0%, #193441 100%);
+}
+
+@font-face {
+  font-family: "RobotoMono";
+  src: url("./fonts/RobotoMono-Regular.ttf");
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+}

@@ -1,0 +1,35 @@
+:root {
+  --bg-button: #fcfff5;
+  --border-button: solid 1px #91aa9d;
+  --cl-button: #193441;
+}
+
+.calculator__btn {
+  font-size: 2.4rem;
+  font-family: inherit;
+  outline: none;
+  border: none;
+  border: var(--border-button);
+  color: var(--cl-button);
+}
+
+.calculator__btn:active {
+  background-color: #d1dbbd;
+}
+
+.calculator__btn--col-3 {
+  grid-column: span 3;
+}
+
+.calculator__btn--col-2 {
+  grid-column: span 2;
+}
+
+.calculator__btn--operation {
+  background-color: #3e606f;
+  color: #fcfff5;
+}
+
+.calculator__btn--operation:active {
+  background-color: #193441;
+}
